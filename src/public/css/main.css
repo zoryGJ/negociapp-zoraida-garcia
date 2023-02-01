@@ -1,0 +1,68 @@
+body{
+    background-color: #cb7474;
+    position: relative;
+}
+
+
+body > div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 266px;
+    right: 800px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #ad4d4d;
+    height: 40vh;
+    width: 19%;
+}
+
+div h1{
+    font-size: 30px;
+    padding: 10px 0;
+    color: #eeee;
+}
+
+form{
+    height: 23vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 23px;
+}
+
+div form h3{
+    margin: 7px 72px;
+    color: #af50b2ee;
+    font-weight: bolder;
+}
+
+div input{
+    border-radius: 8px;
+    background-color: #efeded;
+    border: 2px solid #b896b9ee;
+    height: 4vh;
+    outline: none;
+}
+
+div.unico{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+div.unico button{
+    height: 4vh;
+    width: 25%;
+    border-radius: 8px;
+    background-color: #efeded;
+    border: 2px solid #b896b9ee;
+    color: #af50b2ee;
+    border: none;
+}
+
+h4{
+    color: white;
+}
